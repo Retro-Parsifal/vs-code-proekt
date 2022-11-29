@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Marck Script', cursive;
+}
+.container {/*отступ по бокам всей страницы*/
+    /*background: #17292b;*/
+    padding:5px;
+}
+header .top {/*дизайн шапки*/
+    display: flex;
+    background: #17292b;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+}
+.logo {/*выстраивает в ряд логотип и название*/
+    display: flex;
+    align-items:center;
+}
+.logo img {/*отступ между логотипом и названием*/
+    margin-right:10px;
+    
+}
+.logo p {/*размер шапки*/
+    margin: 3px;
+}
+.logo p span:first-child {/*дизайн названия 1 часть*/
+        font-size: 30px;
+        font-family: 'Marck Script', cursive;
+        color: #D5D5D5;
+    }
+header .top form input {
+    padding: 5px;
+    border: 1px solid #C4C4C4;
+    border-radius: 20px;
+    outline:none;
+}
+header .top form button {
+    background: #2a9a9b;
+    border-radius: 20px;
+    color: #D5D5D5;
+    padding: 5px 30px 5px 30px;
+
+}
+.banner {
+    background: url("../ban.jpg") no-repeat center center;
+    height:25vw;
+    width:auto;
+    display:flex;
+}
+header nav {/*отступ шапки*/
+    display: flex;
+    padding: 0 4px;
+}
+header nav ul {/* выстраивание ссылок в шапки в строку*/
+        display: flex;
+        justify-content: center;
+        }
+header nav ul li {/* дизайн ссылок в шапки*/
+        font-size: 25px;
+        font-family: 'Marck Script', cursive;
+        list-style-type: none;
+        flex-basis: 200%;
+        text-align: center;
+        padding: 0 10px;
+    }
+header nav ul li a {/* цвет ссылок в шапки*/
+    color: #D5D5D5;
+}
+body {/*дизайн текста в блоках*/
+    background-color: #fff;
+    font-family: "Open Sans", sans serif;
+    line-height: 1.5;
+}
+.content_central {/*размер переднего блока*/
+   /*background: #0e5457;
+      display:flex;
+      flex-basis:74%;
+      justify-content:space-between;*/
+}
+.content_central .top {/*дизайн блока популярные книги*/
+    padding:15px;
+    background: #13767b;
+    flex-basis: 31%;
+}
+.content_central section h3 {/* дизайн шапки популярные книги*/
+    text-align: center;
+    background: #158288;
+    font-family: 'Marck Script', cursive;
+    color: #D5D5D5;
+    font-size: 23px;
+    margin: 0;
+}
+.content_central article {/* размер блока популярные книги*/
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: 15px auto;
+    padding: 15px 10px;
+	padding-left: 200px;
+    border-bottom: 2px groove #13767b;
+}
